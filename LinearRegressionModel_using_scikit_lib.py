@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[8]:
-
 get_ipython().magic('matplotlib inline')
 import numpy as np
 import pandas as pd
@@ -46,9 +41,5 @@ plt.show()
 
 print('R2: ' + str(r2_score))
 print('If person\'s height is 166cm, predicted weight of that person will be: ' + str(regressor.predict(166)))
-
-
-# In[ ]:
-
 
 
