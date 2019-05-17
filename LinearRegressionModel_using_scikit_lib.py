@@ -39,6 +39,7 @@ plt.ylabel('Weight')
 plt.legend()
 plt.show()
 
+print('scikit lib function output:')
 print('R2: ' + str(r2_score))
 print('If person\'s height is 154cm, predicted weight of that person will be: ' + str(regressor.predict(154)))
 
